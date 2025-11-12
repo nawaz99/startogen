@@ -1,4 +1,4 @@
-import { Facebook, Linkedin, Twitter } from "lucide-react";
+import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -9,7 +9,7 @@ export default function Footer() {
 
         {/* Logo + Description */}
         <div>
-          <h2 className="text-3xl font-extrabold text-[#FF7F50]">Startogen</h2>
+          <h2 className="text-3xl font-semibold text-[#FF7F50]">Startogen</h2>
           <p className="mt-4 text-sm text-gray-700 leading-relaxed">
             One platform. Multiple AI tools. Experience the future of productivity and automation.
           </p>
@@ -39,14 +39,31 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold text-gray-900 mb-4">Connect With Us</h3>
           <div className="flex gap-4">
-            <a href="#" className="p-2 rounded-full bg-white shadow hover:shadow-lg hover:bg-[#FF7F50] hover:text-white transition">
-              <Facebook size={20} />
+            <a
+              href="https://www.facebook.com/profile.php?id=61583442815972"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#FF7F50] transition"
+            >
+              <FaFacebook size={22} />
             </a>
-            <a href="#" className="p-2 rounded-full bg-white shadow hover:shadow-lg hover:bg-[#FF7F50] hover:text-white transition">
-              <Twitter size={20} />
+
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#FF7F50] transition"
+            >
+              <FaLinkedin size={22} />
             </a>
-            <a href="#" className="p-2 rounded-full bg-white shadow hover:shadow-lg hover:bg-[#FF7F50] hover:text-white transition">
-              <Linkedin size={20} />
+
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#FF7F50] transition"
+            >
+              <FaTwitter size={22} />
             </a>
           </div>
         </div>

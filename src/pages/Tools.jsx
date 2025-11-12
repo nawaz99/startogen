@@ -54,7 +54,7 @@ export default function Tools() {
   return (
     <section className="px-8 py-20 bg-gradient-to-br from-[#FFECE5] to-[#FFD6C9] min-h-screen">
 
-      <h2 className="text-4xl font-bold text-center mb-4">
+      <h2 className="text-4xl text-center mb-4">
         Explore <span className="text-[#FF7F50]">AI Tools</span>
       </h2>
 
@@ -121,7 +121,7 @@ export default function Tools() {
       </div>
 
       {/* Who Can Use Startogen? */}
-      <h3 className="text-3xl font-bold text-center mt-24 mb-10 text-gray-900">
+      <h3 className="text-3xl text-center mt-24 mb-10 text-gray-900">
         Who Can Use Startogen?
       </h3>
 

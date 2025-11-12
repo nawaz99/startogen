@@ -16,12 +16,12 @@ export default function Home() {
         <h1 className="text-5xl md:text-6xl mb-5 tracking-tight leading-snug text-gray-900">
           All-in-One AI Tools Platform
           <br />
-          <span className="text-[#FF7F50] font-semibold">
+          <span className="text-[#FF7F50]">
             Start of Intelligent Generation.
           </span>
         </h1>
 
-        <p className="text-gray-700 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed font-medium opacity-90">
+        <p className="text-gray-700 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed opacity-90">
           Startogen brings multiple AI tools into one place — useful for students,
           job seekers, employees, businesses, schools, recruiters, and industries.
           Automate tasks, analyze documents, generate content, and work smarter.
@@ -85,7 +85,7 @@ export default function Home() {
         transition={{ duration: 0.8 }}
         className="mt-24 max-w-6xl mx-auto text-center"
       >
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
+        <h2 className="text-3xl md:text-4xl text-gray-900 mb-8">
           Who Can Use <span className="text-[#FF7F50]">Startogen?</span>
         </h2>
 
@@ -112,10 +112,10 @@ export default function Home() {
 
         </div>
 
-<p className="text-gray-700 text-md mt-6">
-  Students, job seekers, employees, startups, industries, recruiters, and schools —
-  <strong>Startogen fits every use case.</strong>
-</p>
+        <p className="text-gray-700 text-md mt-6">
+          Students, job seekers, employees, startups, industries, recruiters, and schools —
+          <strong>Startogen fits every use case.</strong>
+        </p>
 
       </motion.div>
 
